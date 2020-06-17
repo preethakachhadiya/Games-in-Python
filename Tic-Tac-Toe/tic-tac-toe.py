@@ -40,8 +40,21 @@ def play_game():
 
 
 def handle_turn(player):
+
+    print(player + "'s turn")
     position = input("Choose a position form 1-9 : ")
-    position = int(position) - 1
+
+    valid = False
+    while not valid:
+        while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+            position = input("Invalid Input. Choose a position form 1-9 : ")
+
+        position = int(position) - 1
+
+        if board[position] == "-":
+            valid = True
+        else:
+            print("You can't go there. Go again.")
 
     board[position] = player
     display_board()
