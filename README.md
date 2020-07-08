@@ -2,7 +2,7 @@
 Just some simple and easy games coded in Python 
 
 ### ➤ Ping Pong
-<img src="Ping Pong/image.PNG" width="600" height="500" >
+<img src="Ping Pong/image.PNG" width="600" height="450" >
 
 <img src="rainbow.png">
 
