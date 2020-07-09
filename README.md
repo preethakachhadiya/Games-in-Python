@@ -7,9 +7,9 @@ Just some simple and easy games coded in Python
 <img src="rainbow.png">
 
 ### ➤ Snake
-<img src="Snake/game.PNG" width="600" height="800">
+<img src="Snake/Game.PNG" width="600" height="600">
 <br>
-<img src="Snake/msgBox.PNG" width="100" height="100">
+<img src="Snake/msgBox.PNG" width="200" height="200">
 
 <img src="rainbow.png">
 
